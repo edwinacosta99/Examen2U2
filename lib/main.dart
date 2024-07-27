@@ -37,7 +37,7 @@ class _YesNoPageState extends State<YesNoPage> {
       });
     } else {
       setState(() {
-        _responseText = "Failed to get response";
+        _responseText = "Falla al obtener respuesta";
       });
     }
   }
@@ -61,7 +61,7 @@ class _YesNoPageState extends State<YesNoPage> {
                     }
                   },
                 ),
-                hintText: 'Enter your question',
+                hintText: 'Ingresa tu pregunta:',
               ),
             ),
             SizedBox(height: 20),
